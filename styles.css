@@ -3,11 +3,13 @@
 body{
     font-family: "Montserrat",
     sans-serif;
+    margin: 0px;
 
 }
 
 :root{
     --primary-color: #9575cd;
+    --secondary-color: #ddd6fe;
 }
 
 /** container **/
@@ -50,18 +52,22 @@ body{
 }
 
 .navigation {
-    background-color: var(--primary-color);
-    color: white;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
+    
+    color: black;
+    padding: .5rem;
+    text-align: center;
+    
 }
 
 .navigation .link{
-    color: white;
+    color: black;
 }
 
 .navigation .nav-pills {
-    text-align: right;
+    text-align: center;
+    padding-inline-start: 0px;
+    
+
 }
 
 .navigation .link-active {
@@ -93,10 +99,14 @@ body{
     text-align: center;
 }
 
-
+.section {
+    text-align: center;
+    padding: 1rem 0rem;
+}
 .section-2 {
-    background-color: grey;
+    background-color:var(--secondary-color);
     padding: 1rem;
+    text-align: center;
 }
 
 .footer {
@@ -112,4 +122,11 @@ body{
 
 .footer ul {
     padding-inline-start: 0px;
+}
+
+.content{
+    
+    padding-bottom: 10rem;
+    border: solid black;
+    border-radius: 1rem;
 }
